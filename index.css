@@ -400,12 +400,12 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* --------------------------------------- */
-/* ----- Header ----- */
+/* ----- Header: Change Background here ----- */
 /* --------------------------------------- */
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('https://i.pinimg.com/736x/cd/f6/c2/cdf6c2c4ec60cb1f2f7b893fc573e002--the-yellow-wallpaper-yellow-background.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -462,45 +462,45 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-.work__links {
+.project__links {
     display: flex;
     align-items: center;
 }
 
-.work__text {
+.project__text {
     flex: 0 0 30%;
 }
 
-.work__list {
+.project__list {
     /* list-style-type: square; */
     list-style-position: inside;
     margin-bottom: var(--gutter-normal);
 }
 
-.work__code {
+.project__code {
     display: block;
     height: 3rem;
     margin-left: var(--gutter-normal);
     transition: all .3s;
 }
 
-.work__code:hover {
+.project__code:hover {
     transform: scale(1.2);
 }
 
-.work__image-box {
+.project__image-box {
     margin-bottom: var(--gutter-normal);
 }
 
 @media(min-width: 901px) {
-    .work__image-box {
+    .project__image-box {
         flex: 1;
         margin: 0 0 0 10rem;
     }
 }
 
 @media(max-width: 900px) {
-    .work__code {
+    .project__code {
         height: 4rem;
     }
 }
