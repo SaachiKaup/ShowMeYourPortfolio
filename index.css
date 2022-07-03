@@ -440,24 +440,24 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Work ----- */
 /* --------------------------------------- */
 
-.work__box {
+.project__box {
     display: flex;
     align-items: center;
 }
 
 @media(max-width: 900px) {
-    .work__box {
+    .project__box {
         align-items: initial;
         flex-direction: column-reverse;
     }
 }
 
-.work__box:not(:last-child) {
+.project__box:not(:last-child) {
     margin-bottom: 25rem;
 }
 
 @media(max-width: 500px) {
-    .work__box:not(:last-child) {
+    .project__box:not(:last-child) {
         margin-bottom: 20rem;
     }
 }
