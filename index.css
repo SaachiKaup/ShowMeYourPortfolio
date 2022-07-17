@@ -535,6 +535,11 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- About ----- */
 /* --------------------------------------- */
 
+/* .about { */
+    /* background-image: url('https://assets.bluethumb.com.au/media/image/thumbnail/800/5000/eyJpZCI6InVwbG9hZHMvbGlzdGluZy8xNTE0MzYvc2FtLXlvbmctdmFuZ3VhcmQtYmx1ZXRodW1iLTkxNjUuanBnIiwic3RvcmFnZSI6InN0b3JlIiwibWV0YWRhdGEiOnsiZmlsZW5hbWUiOiJzYW0teW9uZy12YW5ndWFyZC1ibHVldGh1bWItOTE2NS5qcGciLCJtaW1lX3R5cGUiOm51bGx9fQ?signature=29108e0f7112a498ba41079b2ccbdbf8b03ac5b1a0bbb52701048a1777ab147e');
+    background-repeat: no-repeat; */
+/* } */
+
 .about__content {
     display: flex;
     flex-direction: row-reverse;
