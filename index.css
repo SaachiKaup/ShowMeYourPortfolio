@@ -535,10 +535,19 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- About ----- */
 /* --------------------------------------- */
 
-/* .about { */
-    /* background-image: url('https://assets.bluethumb.com.au/media/image/thumbnail/800/5000/eyJpZCI6InVwbG9hZHMvbGlzdGluZy8xNTE0MzYvc2FtLXlvbmctdmFuZ3VhcmQtYmx1ZXRodW1iLTkxNjUuanBnIiwic3RvcmFnZSI6InN0b3JlIiwibWV0YWRhdGEiOnsiZmlsZW5hbWUiOiJzYW0teW9uZy12YW5ndWFyZC1ibHVldGh1bWItOTE2NS5qcGciLCJtaW1lX3R5cGUiOm51bGx9fQ?signature=29108e0f7112a498ba41079b2ccbdbf8b03ac5b1a0bbb52701048a1777ab147e');
-    background-repeat: no-repeat; */
-/* } */
+.about {
+    /* background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/purple-peony-flower-as-abstract-floral-background-for-holiday-br-anne-leven.jpg'); */
+    /* background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/640px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg'); */
+    /*shipwreck background: no-repeat center/110% url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/1280px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg'); */
+    /* background: no-repeat center/100% url('images/free-art.jpg'); */
+    /* background: no-repeat left/60% url('https://arthistoryproject.com/site/assets/files/13395/albrecht_durer-young_hare-1502-obelisk-art-history-1.800x0.jpg'); */
+} 
+
+.about__photo {
+    height: 0%;
+    width: 100%;
+    border: 5px solid crimson;
+}
 
 .about__content {
     display: flex;
@@ -546,6 +555,11 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
+/* .about__content img {
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+} */
 @media(max-width: 900px) {
     .about__content {
         flex-direction: column-reverse;
@@ -554,7 +568,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .about__photo-container {
-    margin-bottom: var(--gutter-normal);
+    /* display: flex; */
 }
 
 @media(min-width: 901px) {
@@ -564,7 +578,7 @@ body:not(.user-is-tabbing) a:focus {
     
     .about__photo-container {
         flex: 1;
-        margin: 0 var(--gutter-huge) 0 0;
+        margin: 0 var(--gutter-huge) var(--gutter-huge) var(--gutter-huge);
     }
 }
 
