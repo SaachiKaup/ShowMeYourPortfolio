@@ -492,10 +492,14 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
+.project__image {
+    height: 50vh;
+    width: 100vw;
+}
 @media(min-width: 901px) {
     .project__image-box {
         flex: 1;
-        margin: 0 0 0 10rem;
+        margin: 10rem 0rem 10rem 20rem;
     }
 }
 
