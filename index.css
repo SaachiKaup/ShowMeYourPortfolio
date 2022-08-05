@@ -72,7 +72,7 @@ body {
     font-weight: 400;
     color: var(--white-1);
     line-height: var(--line-height-normal);
-    background-image: linear-gradient(black, black);
+    background-image: linear-gradient(#00113F, black);
     overflow-x: hidden;
 }
 
@@ -401,11 +401,12 @@ body:not(.user-is-tabbing) a:focus {
 
 /* --------------------------------------- */
 /* ----- Header: Change Background here ----- */
+    /* url('https://images.squarespace-cdn.com/content/v1/52c6e87de4b03e099beae559/1411491015118-Z2TRCLSJIB4TJDVT1DCV/Header-Hondecoeter.jpg'); */
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-     url('https://images.squarespace-cdn.com/content/v1/52c6e87de4b03e099beae559/1411491015118-Z2TRCLSJIB4TJDVT1DCV/Header-Hondecoeter.jpg');
+    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)),
+    url('/images/DarkBlueAbstract.jpg'); 
     height: 100vh;
     background-size: cover;
     background-position: center;
